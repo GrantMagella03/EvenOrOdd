@@ -19,7 +19,7 @@ internal class Program
                 Console.WriteLine($"{input} is odd");
             }
             Console.Write($"Quit?(y/n): ");
-            String input2 = Console.ReadLine();
+            String input2 = ""+Console.ReadLine();
             if (input2 == "Y"||input2=="y")
             {
                 quit=true;
